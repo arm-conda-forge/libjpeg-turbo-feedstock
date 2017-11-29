@@ -21,11 +21,6 @@ requirements:
     build:
         - python  # [win]
         - cmake  # [win]
-        - msinttypes  # [win]
-        - autoconf  # [unix]
-        - automake  # [unix]
-        - libtool  # [unix]
-        - yasm
         - vc   9  # [win and py27]
         - vc  10  # [win and py34]
         - vc  14  # [win and py35]
@@ -48,7 +43,3 @@ about:
     license: IJG, modified 3-clause BSD and zlib
     summary: IJG JPEG compliant runtime library with SIMD and other optimizations
     
-extra:    
-    recipe-maintainers:
-        - valgur
-        - sdvillal
